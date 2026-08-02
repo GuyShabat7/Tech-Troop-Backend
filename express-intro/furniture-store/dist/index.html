@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Furniture Store</h1>
+    </header>
+
+    <main>
+      <h2>Price Check</h2>
+
+      <form id="price-check-form">
+        <input
+          type="text"
+          id="name-input"
+          placeholder="table, chair, couch, picture frame"
+          autocomplete="off"
+        />
+        <button type="submit">Check price</button>
+      </form>
+
+      <p id="result"></p>
+
+      <h2>Buy</h2>
+
+      <form id="buy-form">
+        <input
+          type="text"
+          id="buy-input"
+          placeholder="table, chair, couch, picture frame"
+          autocomplete="off"
+        />
+        <button type="submit">Buy</button>
+      </form>
+
+      <p id="buy-result"></p>
+
+      <h2>Admin</h2>
+
+      <button id="sale-button" type="button">Start sale (50% off items with 10+ in stock)</button>
+
+      <ul id="store-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
