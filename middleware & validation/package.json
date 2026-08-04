@@ -1,0 +1,13 @@
+{
+  "name": "middleware-validation",
+  "version": "1.0.0",
+  "description": "Middleware & validation exercises",
+  "main": "exercise1.js",
+  "scripts": {
+    "ex1": "node exercise1.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
